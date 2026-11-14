@@ -1,0 +1,26 @@
+********PROFENAC calculation
+RM=BSIZE*1000/VOLVIAL
+RM=RM-50
+RM=ROUND(RM,-2)
+rm1=1.00*bsize*1000/1000
+rm2=2*bsize*1000/1000
+rm3=1*bsize*1000/1000
+rm4=50*bsize*1000/(1000*1000)
+rm5=15*bsize*1000/(1000*1000)
+rm6=bsize/5
+RM7=BSIZE*6
+RM1=ROUND(RM1,2)
+RM2=ROUND(RM2,2)
+RM3=ROUND(RM3,2)
+*RM4=ROUND(RM4,3)
+*RM5=ROUND(RM5,3)
+RM6=ROUND(RM6,0)
+RM7=ROUND(RM7,0)
+   pm1=RM
+   pm2=((RM*2)/100)+50
+   PM2=ROUND(PM2,-2)
+   PM2=PM2+RM
+   pm3=PM2
+   pm2=pm2+500
+	pm2=round(pm2,-3)
+

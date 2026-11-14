@@ -1,0 +1,5 @@
+*******0.25 % OCUMOL PAGE 8
+@0,60 SAY 'PAGE : 8 OF 14'
+DO PROC_1
+DO oc25mfg1
+EJECT

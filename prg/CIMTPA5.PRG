@@ -1,0 +1,3 @@
+@0,60 SAY 'PAGE : 5 OF 13'
+DO PROC_1
+DO tcomp4

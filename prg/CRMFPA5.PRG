@@ -1,0 +1,4 @@
+*CROMAL FFS
+@0,60 SAY 'PAGE : 5 OF 17'
+DO PROC_1
+DO crfmfg1

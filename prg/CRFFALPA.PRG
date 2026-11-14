@@ -1,0 +1,2 @@
+*****TO BE DONE BEFORE CIMTA.PRG RUNS
+do crFcal

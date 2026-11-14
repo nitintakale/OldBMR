@@ -1,0 +1,6 @@
+***PAGE4
+LN=0
+@LN,60 SAY 'PAGE : 4 OF 11'
+DO ADPROC_1
+DO rE4
+

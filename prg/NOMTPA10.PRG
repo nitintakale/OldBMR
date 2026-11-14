@@ -1,0 +1,5 @@
+*norflox ter.
+@0,60 SAY 'PAGE : 10 OF 13'
+DO PROC_1
+DO TCOMP8
+*DO TCOMP7A

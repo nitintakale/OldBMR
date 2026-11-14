@@ -1,0 +1,11 @@
+********aquatears
+RM=BSIZE*1000/VOLVIAL
+RM=RM-50
+RM=ROUND(RM,-2)
+rm1=((0.014*bsize))
+rm2=bsize/166.66
+rm3=round(bsize/114.15,3)
+rm4=bsize
+rm5=bsize/5
+rm6=bsize/50
+pm1=BSIZE*2

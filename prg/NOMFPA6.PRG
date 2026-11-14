@@ -1,0 +1,5 @@
+*norflox FFS
+@0,60 SAY 'PAGE : 6 OF 17'
+DO PROC_1
+DO NOFMFG2
+

@@ -1,0 +1,7 @@
+***PAGE11
+LN=0
+@LN,60 SAY 'PAGE : 11 OF 11'
+DO PROC_1
+DO re11
+EJECT
+

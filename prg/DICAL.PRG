@@ -1,0 +1,10 @@
+********DINOSPRAY
+RM=BSIZE*1000/VOLVIAL
+RM=ROUND(RM,-2)
+rm1=0.032813*bsize
+rm2=0.9*bsize
+RM1=ROUND(RM1,3)
+pm1=48*bsize
+PM1=ROUND(PM1,-1)
+PM2=PM1
+

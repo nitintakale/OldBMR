@@ -1,0 +1,10 @@
+***optipres PAGE1,PAGE 1A
+LN=0
+@0,60 SAY 'PAGE : 1 OF 13'
+DO OPMtWK1
+do bottline
+EJECT
+LN=0
+@0,60 SAY 'PAGE : 1A OF 13(STORE COPY)'
+DO OPMtWK1
+EJECT

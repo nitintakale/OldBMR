@@ -1,0 +1,6 @@
+***PAGE7
+LN=0
+@LN,60 SAY 'PAGE : 7 OF 11'
+DO ADPROC_1
+DO re7
+

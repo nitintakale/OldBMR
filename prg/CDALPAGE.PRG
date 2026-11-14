@@ -1,0 +1,2 @@
+*****TO BE DONE BEFORE CCDMAA.PRG RUNS
+do cDcal

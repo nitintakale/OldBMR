@@ -1,0 +1,6 @@
+***PAGE5
+LN=0
+@LN,60 SAY 'PAGE : 5 OF 11'
+DO ADPROC_1
+DO reMFG1
+

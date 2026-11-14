@@ -1,0 +1,20 @@
+*optipres-s FFS
+@0,60 SAY 'PAGE : 14 OF 14'
+DO PROC_1
+DO cidp18
+*IF BSIZE>500
+*  @0,60 SAY 'PAGE : 14A OF 14'
+*  DO PROC_1
+*  DO cidp18
+*ENDIF  
+*IF BSIZE > 550
+*  @0,60 SAY 'PAGE : 14B OF 14'
+*  DO PROC_1
+*  DO NOFP14_I
+*  @0,60 SAY 'PAGE : 14C OF 14'
+*  DO PROC_1
+*  DO NOFP14_I
+*  @0,60 SAY 'PAGE : 14D OF 14'
+*  DO PROC_1
+*  DO NOFP14_I
+*ENDIF  

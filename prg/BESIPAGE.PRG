@@ -1,0 +1,2 @@
+*****TO BE DONE BEFORE BEMTS.PRG RUNS
+do BEcal

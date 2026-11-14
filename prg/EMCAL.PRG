@@ -1,0 +1,10 @@
+********EMESET RESPULES
+RM=BSIZE*1000/VOLVIAL
+RM=RM-50
+RM=ROUND(RM,-2)
+rm1=bsize/40*100
+rm2=ROUND(bsize/2.175,1)
+rm3=ROUND((BSIZE/3.03),2)
+rm4=bsize*8.3
+pm1=RM+200
+

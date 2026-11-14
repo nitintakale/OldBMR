@@ -1,0 +1,3 @@
+
+*****CONNECTED TO CRMTA.PRG
+do CRcal

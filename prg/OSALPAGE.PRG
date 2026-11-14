@@ -1,0 +1,2 @@
+*****TO BE DONE BEFORE OSMTA.PRG RUNS
+do OScal

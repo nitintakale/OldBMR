@@ -1,0 +1,6 @@
+***PAGE8
+LN=0
+@LN,60 SAY 'PAGE : 8 OF 11'
+DO PROC_1
+DO reCOMP8
+

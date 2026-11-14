@@ -1,0 +1,16 @@
+********PAGE 1,1A  norflox ASEPTIC
+LN=0
+@ln,15 say '[LDPE]'
+@LN,60 SAY 'PAGE : 1 OF 12'
+DO noMAWK1
+EJECT
+LN=0
+@ln,15 say '[LDPE]'
+@LN,55 SAY 'PAGE : 1A OF 12(STORE COPY)'
+DO noMAWK1
+EJECT
+LN=0
+@ln,15 say '[LDPE]'
+@LN,55 SAY 'PAGE : 1A OF 12 (STORE COPY)'
+DO noMAWK1
+EJECT

@@ -1,0 +1,2 @@
+*****amoss calculation
+do Amoscal

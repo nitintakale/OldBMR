@@ -1,0 +1,4 @@
+@0,60 SAY 'PAGE : 6 OF 11'
+DO PROC_1
+DO RECOMP6
+

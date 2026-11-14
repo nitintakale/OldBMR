@@ -1,0 +1,11 @@
+********DYTOR RESPULES
+RM=BSIZE*1000/VOLVIAL
+RM=RM-50
+RM=ROUND(RM,-2)
+rm1=bsize/100
+rm2=bsize/8.888
+RM2=ROUND(RM2,3)
+rm3=BSIZE/20
+rm4=bsize*1.6
+pm1=RM+800
+

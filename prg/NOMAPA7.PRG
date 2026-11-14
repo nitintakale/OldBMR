@@ -1,0 +1,6 @@
+*******norflox ASEPTIC PAGE 7
+@0,15 SAY '[LDPE]'
+@0,60 SAY 'PAGE : 7 OF 12'
+DO PROC_1
+DO TCOMP6
+

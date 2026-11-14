@@ -1,0 +1,5 @@
+@0,60 SAY 'PAGE : 7 OF 18'
+DO OKPROC_1
+DO NOFMFG2
+
+

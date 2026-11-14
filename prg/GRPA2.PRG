@@ -1,0 +1,5 @@
+@0,60 SAY 'PAGE : 2 OF 11'
+DO PROC_1
+DO ReCOMP2
+
+

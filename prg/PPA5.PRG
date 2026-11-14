@@ -1,0 +1,6 @@
+*eye/ear BPR
+@0,60 SAY 'PAGE : 5 OF 6'
+DO PROC_1
+DO BPR_V
+
+

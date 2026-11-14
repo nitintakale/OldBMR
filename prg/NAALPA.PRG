@@ -1,0 +1,3 @@
+*****TO BE DONE BEFORE NAMTA.PRG RUNS
+
+do NAcal

@@ -1,0 +1,2 @@
+*****TO BE DONE BEFORE PRMFS.PRG RUNS
+do sdcal

@@ -1,0 +1,16 @@
+SET DECIMALS TO 4
+SET FIXED ON		&& fix decimal display
+? ROUND(1234.1962, 3)
+
+? ROUND(1234.1962, 2)
+
+? ROUND(1234.1962, 0)
+
+? ROUND(1234.1962, -1)
+
+? ROUND(1234.1962, -2)
+
+? ROUND(1234.1962, -3)
+
+SET FIXED OFF		&& restore defaults
+SET DECIMALS TO 2

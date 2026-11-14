@@ -1,0 +1,5 @@
+*******norflox ASEPTIC PAGE 10
+@0,15 SAY '[LDPE]'
+@0,60 SAY 'PAGE : 10 OF 12'
+DO PROC_1
+DO ACOMP10

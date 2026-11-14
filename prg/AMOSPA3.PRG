@@ -1,0 +1,5 @@
+***AMOSS
+@0,60 SAY 'PAGE : 3 OF 12'
+DO PROC_1
+DO AZEEP3
+

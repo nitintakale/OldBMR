@@ -1,0 +1,3 @@
+@0,60 SAY 'PAGE : 8 OF 16'
+DO PROC_1
+DO cidp10

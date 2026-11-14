@@ -1,0 +1,4 @@
+CLEA
+READ
+?READKEY()
+WAIT

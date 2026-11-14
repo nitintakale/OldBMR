@@ -1,0 +1,4 @@
+@ 0,60 SAY 'PAGE : 3 OF 18'
+DO OKPROC_1
+DO NOFP2
+

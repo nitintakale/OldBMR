@@ -1,0 +1,4 @@
+@0,60 SAY 'PAGE : 7 OF 10'
+DO PROC_1
+DO RICOMP7
+

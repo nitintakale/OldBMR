@@ -1,0 +1,10 @@
+********DEXACIP RESPULES
+RM=BSIZE*1000/VOLVIAL
+RM=RM-50
+RM=ROUND(RM,-2)
+rm1=4.62*bsize/1000
+rm2=bsize*10
+rm3=BSIZE*4
+rm4=bsize/20
+pm1=RM+200
+

@@ -1,0 +1,9 @@
+CLEAR
+
+SET COLOR TO R+/B
+@4,2 SAY 'TT'
+@6,2 SAY 'TT'
+@7,2 SAY 'TT'
+@8,2 SAY 'TT'
+@9,2 SAY 'TT'
+@ 4,1 FILL TO 10, 77 COLOR G+/BR

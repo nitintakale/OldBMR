@@ -1,0 +1,6 @@
+***PAGE10
+LN=0
+@LN,60 SAY 'PAGE : 10 OF 11'
+DO ADPROC_1
+DO re10
+

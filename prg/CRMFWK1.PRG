@@ -1,0 +1,268 @@
+***CROMAL EYE  DRROPS  WORKS1
+SET PROC TO ADIHEAD
+*CLOSE DATABASES
+DO HEADP1
+LN=LN+1
+@LN,0 SAY '*'
+@ln,1 say '1176A'
+@ln,6 say '|'
+@ln,7 say 'Sodium cromoglycateIP'
+@ln,29 say '|'
+@ln,30 say 'Kgs'
+@ln,34 say '|'
+@ln,35 say rm1 pict '9999.99'
+@ln,42 say '|'
+@ln,51 say '|'
+@ln,57 say '|'
+@ln,63 say '|'
+@ln,71 say '|'
+@ln,74 say '|'
+@ln,80 say '|'
+ln=ln+1
+@ln,6 say '|'
+@ln,29 say '|'
+@ln,34 say '|'
+@ln,42 say '|'
+@ln,51 say '|'
+@ln,57 say '|'
+@ln,63 say '|'
+@ln,71 say '|'
+@ln,74 say '|'
+@ln,80 say '|'
+@ln,1 say ee1
+ln=ln+1
+@ln,1 say '0596B'
+@ln,6 say '|'
+@ln,7 say 'Disodium Edetate IP'
+@ln,29 say '|'
+@ln,30 say 'gms'
+@ln,34 say '|'
+@ln,35 say rm2 pict '9999.99'
+@ln,42 say '|'
+@ln,51 say '|'
+@ln,57 say '|'
+@ln,63 say '|'
+@ln,71 say '|'
+@ln,74 say '|'
+@ln,80 say '|'
+ln=ln+1
+@ln,6 say '|'
+@ln,29 say '|'
+@ln,34 say '|'
+@ln,42 say '|'
+@ln,51 say '|'
+@ln,57 say '|'
+@ln,63 say '|'
+@ln,71 say '|'
+@ln,74 say '|'
+@ln,80 say '|'
+@ln,1 say ee1
+ln=ln+1
+@ln,0 say '1033B'
+@ln,6 say '|'
+@ln,7 say 'Polysorbate 80 IP'
+@ln,29 say '|'
+@ln,30 say 'gms'
+@ln,34 say '|'
+@ln,35 say rm3 pict '9999.99'
+@ln,42 say '|'
+@ln,51 say '|'
+@ln,57 say '|'
+@ln,63 say '|'
+@ln,71 say '|'
+@ln,74 say '|'
+@ln,80 say '|'
+ln=ln+1
+@ln,6 say '|'
+@ln,29 say '|'
+@ln,34 say '|'
+@ln,42 say '|'
+@ln,51 say '|'
+@ln,57 say '|'
+@ln,63 say '|'
+@ln,71 say '|'
+@ln,74 say '|'
+@ln,80 say '|'
+@ln,1 say ee1
+ln=ln+1
+@ln,1 say '0352C'
+@ln,6 say '|'
+@ln,7 say 'Benzalkonium Chloride'
+@ln,29 say '|'
+@ln,34 say '|'
+@ln,42 say '|'
+@ln,51 say '|'
+@ln,57 say '|'
+@ln,63 say '|'
+@ln,71 say '|'
+@ln,74 say '|'
+@ln,80 say '|'
+ln=ln+1
+@ln,6 say '|'
+@ln,7 say 'solution ( 50%) w/v'
+@ln,29 say '|'
+@ln,30 say 'ml'
+@ln,34 say '|'
+@ln,36 say rm4 pict '999.99'
+@ln,42 say '|'
+@ln,51 say '|'
+@ln,57 say '|'
+@ln,63 say '|'
+@ln,71 say '|'
+@ln,74 say '|'
+@ln,80 say '|'
+ln=ln+1
+@ln,1 say '**'
+@ln,6 say '|'
+@ln,7 say 'equivalent to Benzalko-'
+@ln,29 say '|'
+@ln,34 say '|'
+@ln,42 say '|'
+@ln,51 say '|'
+@ln,57 say '|'
+@ln,63 say '|'
+@ln,71 say '|'
+@ln,74 say '|'
+@ln,80 say '|'
+ln=ln+1
+@ln,6 say '|'
+@ln,7 say 'nium chloride NF      gm'
+@ln,23 say rm4/2 pict '999.99'
+@ln,29 say '|'
+@ln,34 say '|'
+@ln,42 say '|'
+@ln,51 say '|'
+@ln,57 say '|'
+@ln,63 say '|'
+@ln,71 say '|'
+@ln,74 say '|'
+@ln,80 say '|'
+ln=ln+1
+@ln,1 say ee1
+@ln,6 say '|'
+@ln,29 say '|'
+@ln,34 say '|'
+@ln,42 say '|'
+@ln,51 say '|'
+@ln,57 say '|'
+@ln,63 say '|'
+@ln,71 say '|'
+@ln,74 say '|'
+@ln,80 say '|'
+ln=ln+1
+@LN,1 SAY '0583A'
+@ln,6 say '|'
+@ln,7 say 'Disodium Hydrogen'
+@ln,29 say '|'
+@ln,30 say 'gms'
+@ln,34 say '|'
+@ln,42 say '|'
+@ln,51 say '|'
+@ln,57 say '|'
+@ln,63 say '|'
+@ln,71 say '|'
+@ln,74 say '|'
+@ln,80 say '|'
+ln=ln+1
+@ln,6 say '|'
+@ln,7 say 'phosphate (anhydrous) to adjust pH'
+@ln,29 say '|'
+@ln,34 say '|'
+@ln,42 say '|'
+@ln,51 say '|'
+@ln,57 say '|'
+@ln,63 say '|'
+@ln,71 say '|'
+@ln,74 say '|'
+@ln,80 say '|'
+ln=ln+1
+
+@ln,6 say '|'
+@ln,29 say '|'
+@ln,34 say '|'
+@ln,42 say '|'
+@ln,51 say '|'
+@ln,57 say '|'
+@ln,63 say '|'
+@ln,71 say '|'
+@ln,74 say '|'
+@ln,80 say '|'
+@ln,1 say ee1
+ln=ln+1
+@ln,1 say '***'
+@ln,6 say '|'
+@ln,7 say 'Purified water IP'
+@ln,29 say '|'
+@ln,34 say '|'
+@ln,35 say 'q.s...'
+@ln,42 say '|'
+@ln,51 say '|'
+@ln,54 say 'to..'
+@ln,57 say '|'
+@ln,58 say bsize pict '9999'
+@ln,63 say '|'
+@ln,64 say 'litres'
+@ln,71 say '|'
+@ln,74 say '|'
+@ln,80 say '|'
+ln=ln+1
+@ln,6 say '|'
+@ln,7 say '(prepared by distillation)'
+@ln,29 say '|'
+@ln,34 say '|'
+@ln,42 say '|'
+@ln,51 say '|'
+@ln,57 say '|'
+@ln,63 say '|'
+@ln,71 say '|'
+@ln,74 say '|'
+@ln,80 say '|'
+ln=ln+1
+@ln,1 say ee1
+@ln,6 say '|'
+@ln,29 say '|'
+@ln,34 say '|'
+@ln,42 say '|'
+@ln,51 say '|'
+@ln,57 say '|'
+@ln,63 say '|'
+@ln,71 say '|'
+@ln,74 say '|'
+@ln,80 say '|'
+ln=ln+1
+@ln,1 say 'Note: *   Quantity of Sodium Cromoglycate IP to be  dispensed is based'
+ln=ln+1
+@ln,1 say '           on 100% Assay Value'
+ln=ln+1
+@ln,1 say '     **  Benzalkonium Chloride NF is highly hygroscopic, so 50% solution '
+ln=ln+1
+@ln,1 say '           is prepared and used in batch.'
+ln=ln+1
+@ln,1 say '     ***   Freshly collected Distilled water to be used'
+ln=ln+1
+@ln,1 say ' 	    10 % solution of Disodium Hydrogen Phosphate(anhydrous) is added to'
+ln=ln+1
+@ln,1 say ' 	    adjust the pH to 5.5 ñ 0.2'
+LN=LN+1
+@ln,1 say ee1
+ln=ln+1
+@ln,1 say 'Calculation for   '
+ln=ln+1
+@ln,1 say '* Sodium  Cromoglycate IP :-'+LTRIM(STR(RM1,7,2))+'  X  100 / (As such Assay(%))=        Kgs.'
+ln=ln+1
+@ln,1 say ee1			  		  
+ln=ln+1
+@ln,1 say 'MATERIAL ISSUED BY :________Dt._______. RECEIVED  BY :_________ Dt______'
+ln=ln+1
+@LN,0 SAY CHR(27)+'E'
+@ln,1 say ee
+LN=LN+1
+do ldpework
+ln=ln+1
+@LN,1 SAY 'MATERIALS ISSUED BY:___________________.RECEIVED & CHECKED BY____________'
+LN=LN+1
+@LN,1 SAY '     DATE          :_______________             DATE:    ___________'
+LN=LN+1
+@LN,1 SAY EE
+LN=LN+1
+

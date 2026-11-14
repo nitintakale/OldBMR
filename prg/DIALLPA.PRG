@@ -1,0 +1,110 @@
+**** BPR ALL PAGES FOR BECLATE/BUDENASE/DINOSPRAY
+IF VBNO=SPACE(6)
+    RETU
+ENDIF
+IF VPS='Y'&& for not different sample
+    STORE 0 TO RRM
+    DO PRINTOPT
+    N=1
+DO WHILE N<=5
+    N=LTRIM(STR(N))
+    VQT=SPACE(3)
+    VQT='QT'+N
+    IF &VQT=0
+	    N=VAL(N)
+		 N=N+1
+       LOOP
+    ENDIF      				 
+    IF &VQT#0
+       RRM=&VQT 
+    ENDIF	
+    PG1=1.04*(RRM+RRM/VOUTCART) 
+    PG2=1.03*RRM
+    PG4=(1.01*RRM)+50
+    PG5=(1.01)*(RRM/VOUTCART)+0.5
+    PG6=1.02*(RRM/VSHIP)+0.5
+    PG7=1.01*RRM
+    PG1=(PG1/500)+0.5
+    PG1=ROUND(PG1,0)
+    PG1=PG1*500
+    PG2=PG2+50
+    PG2=ROUND(PG2,-2)
+    PG4=ROUND(PG4,-2)
+    PG5=ROUND(PG5,-1)
+    PG6=ROUND(PG6,0)
+    PG7=ROUND(PG7,-2)
+    PG3=PG7
+    pg8=pg2
+    PG9=PG7
+    pg10=2*pg2
+    DO DIPA1
+    DO DIPA2
+    DO DIPA3
+    DO DIPA4
+    DO DIPA5
+    DO DIPA6
+    N=VAL(N)
+	 N=N+1    
+ ENDDO
+ENDIF
+IF VSAMP='Y' && for sample only
+    QT4=((YIELD/100)*RM)
+    @LN,1 SAY 'QTY FOR SAMPLE  ' 
+    @LN,15 SAY QT4 PICT '9999999'
+    WAIT
+    STORE 0 TO RRM
+    DO PRINTOPT
+    N=4
+    N=LTRIM(STR(N))
+    VQT=SPACE(3)
+    VQT='QT'+N
+    RRM=&VQT 
+*PG1=LABEL
+*PG2=INNER PRINT.CART
+*PG3=ADAPTION PROTECTION CAPS
+*PG4=ENCLOSURE
+*PG5=OUTER CARTONS
+*PG6=OUTER CORRU BOXES
+*PG7=NASAL ADAPTOR
+*PG8=BOPP FILM
+*PG9=PLASTIC BASE HOLDER
+*pg10=pp tear tabs
+    PG1=1.04*(RRM+RRM/VOUTCART) 
+    PG2=1.03*RRM
+    PG4=(1.01*RRM)+50
+    PG5=(1.01)*(RRM/VOUTCART)+0.5
+    PG6=1.02*(RRM/VSHIP)+0.5
+    PG7=1.01*RRM
+    PG1=(PG1/500)+0.5
+    PG1=ROUND(PG1,0)
+    PG1=PG1*500
+    PG2=PG2+50
+    PG2=ROUND(PG2,-2)
+    PG4=ROUND(PG4,-2)
+    PG5=ROUND(PG5,-1)
+    PG6=ROUND(PG6,0)
+    PG7=ROUND(PG7,-2)
+    PG3=PG7
+    PG9=PG7
+    pg8=pg2
+    pg10=2*pg2
+    DO DIPA1
+    DO DIPA2
+    DO DIPA3
+    DO DIPA4
+    DO DIPA5
+    DO DIPA6
+ENDIF
+    eject
+    SET PRINT OFF
+    SET DEVI TO SCREEN
+    SET PRINTER TO
+      DO PROC_3
+      !CD\DBASE\BMR\&VDIR
+      SELE C
+      USE BATCH_NO
+      GO TOP
+      LOCATE FOR BATCHNO=VBNO     
+      REPL BPR WITH 'Y'
+		!CD..
+

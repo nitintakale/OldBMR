@@ -1,0 +1,6 @@
+*optipres
+@0,60 SAY 'PAGE : 9 OF 13'
+DO PROC_1
+DO TCOMP7T
+DO TCOMP7A
+EJECT

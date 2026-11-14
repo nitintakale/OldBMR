@@ -1,0 +1,10 @@
+***optipres-s PAGE1,PAGE 1A
+LN=0
+@LN,60 SAY 'PAGE : 1 OF 14'
+DO OSMtWK1
+do bottline
+EJECT
+LN=0
+@LN,60 SAY 'PAGE : 1A OF 14'
+DO OSMtWK1
+EJECT

@@ -1,0 +1,7 @@
+val1 = 50
+val2 = 'Hello'
+SAVE TO temp
+CLEAR MEMORY
+val3 = DATE()
+RESTORE FROM temp ADDITIVE
+DISPLAY MEMORY LIKE val?

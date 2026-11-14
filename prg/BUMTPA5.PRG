@@ -1,0 +1,4 @@
+@0,60 SAY 'PAGE : 5 OF 12'
+DO PROC_1
+DO bbcomp5
+DO BBCOMP5A

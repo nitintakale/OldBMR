@@ -1,0 +1,32 @@
+*****to display on all page at top from page 2 to 13 for bmr/BPR FOR OKASA 
+@0,1 say bsize pict '9999.99'
+@0,6 say 'L'
+LN=1
+ln=ln+1
+@LN,1 SAY CHR(27)+'E'
+SELE I
+USE MAINCODE ORDER MAINCODE
+SEEK VNAME
+IF VNAME #'ADITI'
+	@LN,1 SAY I->NAME
+	@LN,40 SAY 'C/O ADITI PHARMACEUTICALS PVT.LTD.'
+	LN=LN+1
+	@LN,1 SAY I->CITY+' '+LTRIM(STR(I->PIN))
+	@LN,45 SAY 'SOLAPUR- 413006'
+ENDIF
+IF VNAME='ADITI'
+	@LN,40 SAY 'ADITI PHARMACEUTICALS PVT.LTD.'
+	LN=LN+1
+	@LN,45 SAY 'SOLAPUR- 413006'
+ENDIF
+SELE I
+USE
+ln=ln+1
+@LN,1 SAY 'PRODUCT :'
+@ln,12 say pname
+@LN,45 SAY 'BATCH NO.:'
+@ln,56 say vbno PICT '!!!!!!'
+LN=LN+1
+@LN,1 SAY EE
+@LN,1 SAY CHR(27)+'F'
+

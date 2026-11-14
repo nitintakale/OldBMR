@@ -1,0 +1,4 @@
+@0,60 SAY 'PAGE : 7 OF 12'
+DO PROC_1
+DO buTMFG2
+
